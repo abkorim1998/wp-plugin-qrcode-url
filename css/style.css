@@ -1,0 +1,120 @@
+.header {
+    position: relative;
+    padding: 10px;
+    height: 100px;
+    background-repeat: no-repeat;
+    border: 3px solid rgba(255, 255, 255, 0);
+    background-size: 100% 200px;
+    background-position: center;
+    
+    box-shadow: 5px 3px 20px 2px rgb(48, 6, 74);
+}
+.header_overly{
+    background-color: rgba(144, 144, 144, 0.93);;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.header_overly h1 {
+    padding-left: 20px;
+    color: rgba(158, 34, 148, 0.3803921568627451);
+    font-size: 55px;
+    text-shadow: 6px -1px 13px black;
+}
+
+.kb_qrcode_div {
+    background-image: url(../img/kb_qr_code.png);
+    background-size: 100% 100%;
+    width: 50px;
+    height: 50px;
+    margin-top: -20px;
+    position: fixed;
+    top: 50%;
+    left: 0;
+    z-index: 9999;
+}
+
+.bgleayr{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background-color: rgba(118, 118, 118, 0.92); */
+    display: none;
+}
+
+
+#qrcode_imag_div{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -100px;
+    margin-top: -100px;
+    border: solid 10px rgba(123, 121, 121, 0);
+    border-radius: 5px;
+    box-shadow: 4px 5px 20px 4px rgba(16, 16, 16, 0.6313725490196078);
+}
+
+/* ui tabs */
+.ui-tabs-vertical { width: 55em; }
+.ui-tabs-vertical .ui-tabs-nav { padding: .2em .1em .2em .2em; float: left; width: 12em; }
+.ui-tabs-vertical .ui-tabs-nav li { clear: left; width: 100%; border-bottom-width: 1px !important; border-right-width: 0 !important; margin: 0 -1px .2em 0; }
+.ui-tabs-vertical .ui-tabs-nav li a { display:block; }
+.ui-tabs-vertical .ui-tabs-nav li.ui-tabs-active { padding-bottom: 0; padding-right: .1em; border-right-width: 1px; }
+.ui-tabs-vertical .ui-tabs-panel { padding: 1em; float: right; width: 40em;}
+
+#tabs li a{
+
+    padding: 5px;
+    font-size: 15px;
+    text-decoration: none;
+    background: rebeccapurple;
+    border: 2px solid #0000004f;
+    border-radius: 7px;
+    color: #ffffff;
+
+}
+
+#tabs li.ui-tabs-active a{
+    box-shadow: 8px 0px 3px #45008a;
+}
+
+#tabs h2 {
+    color: #ffffff;
+}
+
+#tabs-3,
+#tabs-2,
+#tabs-1{
+    height: 200px;
+    display: block;
+    background: rebeccapurple;
+    color: lemonchiffon;
+    font-family: tahoma;
+    border-radius: 0px 0px 10px 10px;
+}
+
+fieldset label {
+    padding: 5px;
+    background: rebeccapurple;
+    border-radius: 3px;
+    box-shadow: 0px 0px 6px 1px black;
+    color: #fff;
+}
+
+form #kbsubmit{
+    background: rebeccapurple;
+    padding: 5px 30px 5px 30px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    color: #fff;
+    box-shadow: 1px 1px 14px rebeccapurple;
+}
+
+form #kbsubmit:focus{
+    background: rgb(90, 0, 181);
+    box-shadow: inset 3px 4px 6px 0px black
+}
