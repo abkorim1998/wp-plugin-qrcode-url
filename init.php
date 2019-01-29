@@ -218,12 +218,12 @@ function qrcode_menu_func(){
 
 				<!-- width -->
 				<p>
-					<label for="width">Select a value:</label>
+					<label for="width">Select a width:</label>
 					<input id="width" name="width" value="<?php echo $kb_qr_code_info->width; ?>">
 				</p>
 				<!-- height -->
 				<p>
-					<label for="height">Select a value:</label>
+					<label for="height">Select a height:</label>
 					<input id="height" name="height" value="<?php echo $kb_qr_code_info->height; ?>">
 				</p>
  
